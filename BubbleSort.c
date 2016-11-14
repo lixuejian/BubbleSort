@@ -20,7 +20,8 @@ int main(){
 void BubbleSort(int *a){
 	int i, j, temp;
 	int flag;
-	for (i = 0; i < 10; i++){
+	for (i = 0; i < 10; i++)
+	{
 		flag = TRUE;
 		for (j = 0; j < 9 - i; j++)
 		{
